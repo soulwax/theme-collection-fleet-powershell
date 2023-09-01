@@ -46,8 +46,7 @@
           "background": "#292929",
           "foreground": "#D4E157",
           "style": "plain",
-          "template": "<#fb7e14>\ue0b1 </>{{ .Status }} ",
-          "type": "poshgit"
+          "type": "git"
         },
         {
           "background": "#292929",
@@ -59,8 +58,8 @@
           ],
           "properties": {
             "charged_icon": "\uf240 ",
-            "charging_icon": "\uf583 ",
-            "discharging_icon": "\uf583 ",
+            "charging_icon": "\ueb2d ",
+            "discharging_icon": "\ueb2d ",
             "text": "\ue0b0"
           },
           "style": "powerline",
@@ -78,9 +77,9 @@
             "display_exit_code": true
           },
           "style": "diamond",
-          "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\uf00c{{ end }} ",
+          "template": " {{ if gt .Code 0 }}\uf00d {{ reason .Code }}{{ else }}\uf00c{{ end }} ",
           "trailing_diamond": "\ue0b4",
-          "type": "exit"
+          "type": "status"
         }
       ],
       "type": "prompt"
@@ -93,17 +92,17 @@
           "foreground": "#fb7e14",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} <#fb7e14>\ue0b3</> ",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} <#fb7e14>\ue0b3</> ",
           "type": "session"
         },
         {
           "background": "#292929",
           "foreground": "#fb7e14",
           "properties": {
-            "time_format": "15:04:05"
+            "time_format": "15:04:05, _2"
           },
           "style": "diamond",
-          "template": "{{ .CurrentDate | date .Format }} \uf017 ",
+          "template": "{{ .CurrentDate | date .Format }} \uf073 ",
           "trailing_diamond": "\ue0b4",
           "type": "time"
         }
@@ -122,7 +121,7 @@
           "foreground": "#292929",
           "style": "diamond",
           "leading_diamond": "\u2570\u2500\ue0b6",
-          "template": "\ufb26",
+          "template": "\ue7ad",
           "trailing_diamond": "\ue0b4",
           "type": "path"
         }

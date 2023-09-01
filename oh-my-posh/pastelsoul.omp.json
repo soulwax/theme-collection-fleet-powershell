@@ -1,0 +1,21 @@
+"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+"blocks": [
+  {
+    "alignment": "left",
+    "segments": [
+      {
+        "type": "os",
+        "style": "diamond",
+        "background": "#FFB6C1", 
+        "foreground": "#000000",
+        "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}}",
+        "leading_diamond": "\ue0c5",
+        "trailing_diamond": "\ue0b0"
+      }
+    ],
+    "type": "prompt"
+  }
+],
+"final_space": true,
+"version": 2
+}

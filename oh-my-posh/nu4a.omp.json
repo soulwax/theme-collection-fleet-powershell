@@ -24,7 +24,7 @@
           "properties": {
             "folder_icon": "\ue5ff",
             "folder_separator_icon": "\ue0b9",
-            "home_icon": "\uf7db",
+            "home_icon": "\ueb06",
             "mapped_locations": {
               "C:\\Users": "\uf007",
               "C:\\Windows": "\ue62a"
@@ -65,7 +65,7 @@
           "style": "diamond",
           "template": " \ue70f ",
           "trailing_diamond": "\ue0c0",
-          "type": "exit"
+          "type": "status"
         },
         {
           "background": "#2f2f2f",

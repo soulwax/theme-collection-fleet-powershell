@@ -56,7 +56,7 @@
           }
         },
         {
-          "type": "exit",
+          "type": "status",
           "style": "plain",
           "foreground": "p:terminal-red",
           "template": " \uf00d"
@@ -72,7 +72,7 @@
           "type": "node",
           "style": "plain",
           "foreground": "p:pistachio-green",
-          "template": "\uf898 {{ .Full }} "
+          "template": "\ue718 {{ .Full }} "
         },
         {
           "type": "php",

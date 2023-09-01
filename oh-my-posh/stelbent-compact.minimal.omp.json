@@ -14,7 +14,7 @@
             "display_host": true
           },
           "style": "plain",
-          "template": "\u250c {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}@{{ .HostName }} "
+          "template": "\u250c {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} "
         },
         {
           "type": "path",
@@ -68,7 +68,7 @@
           "template": " {{ .WorkspaceName }}{{ if .Version }} {{ .Version }}{{ end }} "
         },
         {
-          "type": "exit",
+          "type": "status",
           "background": "#ff8080",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",

@@ -74,6 +74,14 @@
             "template": " \ue718 {{ .Full }} "
           },
           {
+            "type": "spotify",
+            "style": "powerline",
+            "powerline_symbol": "\ue0b0",
+            "foreground": "#1D1F28",
+            "background": "#1ED760",
+            "template": " \ue60c {{ .Full }} "
+          },
+          {
             "type": "go",
             "style": "powerline",
             "powerline_symbol": "\ue0b0",
