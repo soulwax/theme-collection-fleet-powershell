@@ -1,0 +1,813 @@
+{
+    "meta": {
+        "theme.name": "Fleet Warp Soulwax",
+        "theme.kind": "Dark",
+        "theme.version": 8
+    },
+    "colors": {
+        "border": "2d323b",
+        "fill": "14171f",
+        "focusRing": "5a75aa",
+        "shadow": "020409",
+        "text": "bdc3d2",
+        "icon": "9aa0ae",
+        "@hovered.fill": "2d323b",
+        "icon.border": "0000000%",
+        "icon.blue.fill": "2f559c",
+        "icon.gray.fill": "6a707c",
+        "icon.green.fill": "286729",
+        "icon.orange.fill": "884100",
+        "icon.red.fill": "8b3a38",
+        "tab.border": "0000000%",
+        "tab.fill": "060911",
+        "tab.@selected.fill": "14171f",
+        "toggle.border": "0000000%",
+        "selection.fill": "123c7e",
+        "toggle.fill": "2d323b",
+        "button.border": "0000000%",
+        "button.fill": "2d323b",
+        "checkbox.fill": "2d323b",
+        "checkbox.icon": "bacfff",
+        "checkbox.border": "464b56",
+        "@focused.border": "5a75aa",
+        "@secondary.fill": "2d323b",
+        "@secondary.text": "828895",
+        "@placeholder.text": "828895",
+        "@dimmed.fill": "060911",
+        "@dimmed.text": "828895",
+        "@disabled.fill": "21252d",
+        "@disabled.text": "828895",
+        "@error.fill": "832426",
+        "@error.text": "ff9692",
+        "@hovered.text": "bdc3d2",
+        "@inverted.fill": "14171f",
+        "@inverted.text": "bdc3d2",
+        "@selected.fill": "21252d",
+        "@selected.text": "82abfe",
+        "@success.fill": "1c591f",
+        "@success.text": "82cd7d",
+        "@warning.fill": "5e4800",
+        "@warning.text": "e3b000",
+        "button.focusRing": "5a75aa",
+        "button.text": "bdc3d2",
+        "button.@disabled.border": "2d323b",
+        "button.@disabled.fill": "0000000%",
+        "button.@disabled.text": "828895",
+        "button.@focused.border": "5a75aa",
+        "button.@hovered.fill": "2a2f38",
+        "button.@hovered.text": "bdc3d2",
+        "button.@pressed.fill": "272b34",
+        "button.@pressed.text": "bdc3d2",
+        "button.@focused.fill": "2d323b",
+        "button.@inverted.border": "0000000%",
+        "button.@inverted.fill": "2d323b",
+        "button.@inverted.focusRing": "5a75aa",
+        "button.@inverted.text": "bdc3d2",
+        "button.@disabled.@hovered.fill": "0000000%",
+        "button.@disabled.@hovered.text": "828895",
+        "button.@disabled.@pressed.fill": "0000000%",
+        "button.@disabled.@pressed.text": "828895",
+        "button.@focused.@hovered.fill": "2a2f38",
+        "button.@focused.@pressed.fill": "272b34",
+        "button.@inverted.@disabled.border": "2d323b",
+        "button.@inverted.@disabled.fill": "0000000%",
+        "button.@inverted.@disabled.text": "828895",
+        "button.@inverted.@focused.border": "5a75aa",
+        "button.@inverted.@focused.fill": "2d323b",
+        "button.@inverted.@hovered.fill": "2a2f38",
+        "button.@inverted.@hovered.text": "bdc3d2",
+        "button.@inverted.@pressed.fill": "272b34",
+        "button.@inverted.@pressed.text": "bdc3d2",
+        "button.@inverted.@disabled.@hovered.fill": "0000000%",
+        "button.@inverted.@disabled.@hovered.text": "828895",
+        "button.@inverted.@disabled.@pressed.fill": "0000000%",
+        "button.@inverted.@disabled.@pressed.text": "828895",
+        "button.@inverted.@focused.@hovered.fill": "2a2f38",
+        "button.@inverted.@focused.@pressed.fill": "272b34",
+        "checkbox.@checked.border": "0000000%",
+        "checkbox.@checked.fill": "22498d",
+        "checkbox.@checked.focusRing": "5a75aa",
+        "checkbox.@disabled.border": "464b56",
+        "checkbox.@disabled.icon": "828895",
+        "checkbox.@disabled.text": "828895",
+        "checkbox.@focused.border": "0000000%",
+        "checkbox.@partial.border": "0000000%",
+        "checkbox.@hovered.fill": "2a2f38",
+        "checkbox.@partial.fill": "22498d",
+        "checkbox.@partial.focusRing": "5a75aa",
+        "checkbox.@checked.@disabled.border": "0000000%",
+        "checkbox.@checked.@disabled.fill": "3a3e49",
+        "checkbox.@checked.@focused.border": "0000000%",
+        "checkbox.@checked.@focused.fill": "22498d",
+        "checkbox.@checked.@hovered.border": "0000000%",
+        "checkbox.@checked.@hovered.fill": "21437f",
+        "checkbox.@checked.@pressed.border": "0000000%",
+        "checkbox.@checked.@pressed.fill": "203d70",
+        "checkbox.@focused.@hovered.border": "464b56",
+        "checkbox.@focused.@pressed.border": "464b56",
+        "checkbox.@partial.@disabled.border": "0000000%",
+        "checkbox.@partial.@disabled.fill": "3a3e49",
+        "checkbox.@partial.@focused.border": "0000000%",
+        "checkbox.@partial.@focused.fill": "22498d",
+        "checkbox.@partial.@hovered.border": "0000000%",
+        "checkbox.@partial.@hovered.fill": "21437f",
+        "checkbox.@partial.@pressed.border": "0000000%",
+        "checkbox.@partial.@pressed.fill": "203d70",
+        "checkbox.@checked.@focused.@hovered.border": "0000000%",
+        "checkbox.@checked.@focused.@hovered.fill": "21437f",
+        "checkbox.@checked.@focused.@pressed.border": "0000000%",
+        "checkbox.@checked.@focused.@pressed.fill": "203d70",
+        "checkbox.@partial.@focused.@hovered.border": "0000000%",
+        "checkbox.@partial.@focused.@hovered.fill": "21437f",
+        "checkbox.@partial.@focused.@pressed.border": "0000000%",
+        "checkbox.@partial.@focused.@pressed.fill": "203d70",
+        "collaboration.border": "3a3e49",
+        "dangerous.button.fill": "832426",
+        "dangerous.button.focusRing": "5a75aa",
+        "dangerous.button.text": "d4dbea",
+        "dangerous.button.border": "0000000%",
+        "dangerous.button.@disabled.border": "2d323b",
+        "dangerous.button.@disabled.fill": "14171f",
+        "dangerous.button.@disabled.text": "828895",
+        "dangerous.button.@focused.border": "5a75aa",
+        "dangerous.button.@hovered.fill": "752527",
+        "dangerous.button.@pressed.fill": "672527",
+        "dangerous.button.@focused.fill": "832426",
+        "dangerous.button.@focused.text": "d4dbea",
+        "dangerous.button.@hovered.text": "d4dbea",
+        "dangerous.button.@pressed.text": "d4dbea",
+        "dangerous.button.@disabled.@hovered.fill": "14171f",
+        "dangerous.button.@disabled.@hovered.text": "828895",
+        "dangerous.button.@disabled.@pressed.fill": "14171f",
+        "dangerous.button.@disabled.@pressed.text": "828895",
+        "dangerous.button.@focused.@hovered.fill": "752527",
+        "dangerous.button.@focused.@hovered.text": "d4dbea",
+        "dangerous.button.@focused.@pressed.fill": "672527",
+        "dangerous.button.@focused.@pressed.text": "d4dbea",
+        "dialog.fill": "21252d",
+        "dialog.tab.fill": "0000000%",
+        "dialog.tab.border": "0000000%",
+        "dialog.tab.text": "bdc3d2",
+        "dialog.tab.@hovered.border": "0000000%",
+        "dialog.tab.@selected.border": "82abfe",
+        "dialog.tab.@selected.fill": "0000000%",
+        "dialog.tab.@hovered.fill": "2d323b",
+        "dialog.tab.pane.fill": "0000000%",
+        "dialog.tab.pane.border": "3a3e49",
+        "dialog.tab.@hovered.text": "bdc3d2",
+        "dialog.tab.@selected.text": "bdc3d2",
+        "dialog.tab.@focused.@selected.border": "82abfe",
+        "dialog.tab.@focused.@selected.fill": "0000000%",
+        "dialog.tab.@focused.@selected.text": "bacfff",
+        "diff.added.file": "82cd7d",
+        "diff.added.fill": "558059",
+        "diff.added.@selected.fill": "558059",
+        "diff.deleted.fill": "9b6264",
+        "diff.deleted.@selected.fill": "9b6264",
+        "diff.modified.file": "95b7ff",
+        "diff.modified.fill": "5f74a0",
+        "diff.modified.@selected.fill": "5f74a0",
+        "diff.conflict.file": "ff9c56",
+        "diff.conflict.fill": "9b6646",
+        "dnd.fill": "464d5750%",
+        "interline.block.fill": "2d323b",
+        "editor.fill": "14171f",
+        "statusbar.editor.fill": "14171f",
+        "editor.text": "bdc3d2",
+        "editor.braceHighlight.fill": "3a3e49",
+        "editor.caret.fill": "bacfff",
+        "editor.currentLine.fill": "21252d",
+        "editor.currentLine.@focused.fill": "21252d",
+        "editor.lineNumber.text": "525763",
+        "editor.lineNumber.@selected.text": "9aa0ae",
+        "editor.whitespace.text": "464b56",
+        "editor.caret.remote.fill": "6cb469",
+        "header.fill": "0d1018",
+        "icon.button.border": "0000000%",
+        "icon.button.fill": "0000000%",
+        "icon.button.focusRing": "5a75aa",
+        "icon.button.text": "9aa0ae",
+        "icon.button.@disabled.text": "828895",
+        "icon.button.@focused.border": "5a75aa",
+        "icon.button.@hovered.fill": "282d36",
+        "icon.button.@pressed.fill": "2d323b",
+        "icon.button.@selected.fill": "213f76",
+        "icon.button.@selected.text": "bacfff",
+        "icon.button.@disabled.border": "0000000%",
+        "icon.button.@disabled.fill": "0000000%",
+        "icon.button.@focused.fill": "0000000%",
+        "icon.button.@focused.text": "9aa0ae",
+        "icon.button.@hovered.text": "bdc3d2",
+        "icon.button.@pressed.text": "bdc3d2",
+        "icon.button.@selected.border": "0000000%",
+        "icon.button.@selected.focusRing": "5a75aa",
+        "icon.button.@selected.@disabled.fill": "21252d",
+        "icon.button.@selected.@disabled.text": "828895",
+        "icon.button.@selected.@focused.border": "5a75aa",
+        "icon.button.@selected.@focused.fill": "213f76",
+        "icon.button.@selected.@focused.text": "bacfff",
+        "icon.button.@selected.@hovered.fill": "22498d",
+        "icon.button.@selected.@hovered.text": "bacfff",
+        "icon.button.@selected.@pressed.fill": "203d70",
+        "icon.button.@selected.@pressed.text": "bacfff",
+        "icon.button.@disabled.@hovered.fill": "14171f",
+        "icon.button.@disabled.@hovered.text": "828895",
+        "icon.button.@disabled.@pressed.fill": "14171f",
+        "icon.button.@disabled.@pressed.text": "828895",
+        "icon.button.@focused.@hovered.fill": "282d36",
+        "icon.button.@focused.@hovered.text": "bdc3d2",
+        "icon.button.@focused.@pressed.fill": "2d323b",
+        "icon.button.@focused.@pressed.text": "bdc3d2",
+        "icon.button.@selected.@disabled.border": "0000000%",
+        "icon.button.@selected.@focused.@hovered.fill": "22498d",
+        "icon.button.@selected.@focused.@hovered.text": "bacfff",
+        "icon.button.@selected.@focused.@pressed.fill": "203d70",
+        "icon.button.@selected.@focused.@pressed.text": "bacfff",
+        "icon.button.@selected.@disabled.@hovered.fill": "21252d",
+        "icon.button.@selected.@disabled.@hovered.text": "828895",
+        "icon.button.@selected.@disabled.@pressed.fill": "21252d",
+        "icon.button.@selected.@disabled.@pressed.text": "828895",
+        "input.border": "2d323b",
+        "input.fill": "14171f",
+        "input.text": "bdc3d2",
+        "input.@disabled.border": "2d323b",
+        "input.@disabled.fill": "21252d",
+        "input.@disabled.text": "828895",
+        "input.@error.border": "ff9692",
+        "input.@focused.border": "5a75aa",
+        "input.caret.fill": "bacfff",
+        "input.selection.fill": "323e55",
+        "input.@error.fill": "14171f",
+        "input.@error.text": "bdc3d2",
+        "input.@focused.fill": "14171f",
+        "input.@focused.focusRing": "5a75aa",
+        "input.@focused.text": "bdc3d2",
+        "input.@error.@focused.border": "ff9692",
+        "input.@error.@focused.focusRing": "a7696a",
+        "input.caret.@error.fill": "bacfff",
+        "input.@error.@focused.fill": "14171f",
+        "input.@error.@focused.text": "bdc3d2",
+        "input.selection.@error.fill": "323e55",
+        "link.text": "82abfe",
+        "link.focusRing": "82abfe",
+        "list.cursor.border": "5a75aa",
+        "popup.fill": "21252d",
+        "popup.border": "3a3e49",
+        "primary.button.fill": "82abfe",
+        "primary.button.focusRing": "5a75aa",
+        "primary.button.text": "14171f",
+        "primary.button.border": "0000000%",
+        "primary.button.@disabled.border": "2d323b",
+        "primary.button.@disabled.fill": "14171f",
+        "primary.button.@disabled.text": "828895",
+        "primary.button.@focused.border": "5a75aa",
+        "primary.button.@hovered.fill": "7497e0",
+        "primary.button.@pressed.fill": "6684c2",
+        "primary.button.@pressed.border": "0000000%",
+        "primary.button.@focused.fill": "82abfe",
+        "primary.button.@hovered.text": "14171f",
+        "primary.button.@inverted.border": "0000000%",
+        "primary.button.@inverted.fill": "82abfe",
+        "primary.button.@inverted.text": "14171f",
+        "primary.button.@pressed.text": "14171f",
+        "primary.button.@disabled.@hovered.fill": "14171f",
+        "primary.button.@disabled.@hovered.text": "828895",
+        "primary.button.@disabled.@pressed.fill": "14171f",
+        "primary.button.@disabled.@pressed.text": "828895",
+        "primary.button.@focused.@hovered.fill": "7497e0",
+        "primary.button.@focused.@pressed.fill": "6684c2",
+        "primary.button.@inverted.@disabled.border": "2d323b",
+        "primary.button.@inverted.@disabled.fill": "14171f",
+        "primary.button.@inverted.@disabled.text": "828895",
+        "primary.button.@inverted.@focused.border": "5a75aa",
+        "primary.button.@inverted.@focused.fill": "82abfe",
+        "primary.button.@inverted.@focused.focusRing": "5a75aa",
+        "primary.button.@inverted.@hovered.fill": "7497e0",
+        "primary.button.@inverted.@hovered.text": "14171f",
+        "primary.button.@inverted.@pressed.fill": "6684c2",
+        "primary.button.@inverted.@pressed.text": "14171f",
+        "primary.button.@inverted.@disabled.@hovered.fill": "14171f",
+        "primary.button.@inverted.@disabled.@hovered.text": "828895",
+        "primary.button.@inverted.@disabled.@pressed.fill": "14171f",
+        "primary.button.@inverted.@disabled.@pressed.text": "828895",
+        "primary.button.@inverted.@focused.@hovered.fill": "7497e0",
+        "primary.button.@inverted.@focused.@pressed.fill": "6684c2",
+        "progress.fill": "82abfe",
+        "progress.container.fill": "2d323b",
+        "progress.@determinate.fill": "82abfe",
+        "progress.@indeterminate.fill": "82abfe",
+        "progress.@indeterminate.@gradient.fill": "2f559c",
+        "progress.@determinate.@gradient.fill": "82abfe",
+        "scrollbar.fill": "787f8d50%",
+        "scrollbar.@dimmed.fill": "464d5750%",
+        "scrollbar.@hovered.fill": "60657350%",
+        "selection.text": "d4dbea",
+        "selection.@dimmed.fill": "21252d",
+        "selection.@dimmed.text": "bdc3d2",
+        "selection.@hovered.fill": "3a3e49",
+        "selection.@hovered.text": "bdc3d2",
+        "separator.fill": "2d323b",
+        "mainSplit.separator.fill": "2d323b",
+        "simpleToggle.border": "0000000%",
+        "simpleToggle.circle.@disabled.fill": "9aa0ae",
+        "simpleToggle.circle.fill": "14171f",
+        "simpleToggle.strip.@disabled.@hovered.fill": "2d323b",
+        "simpleToggle.strip.@disabled.fill": "2d323b",
+        "simpleToggle.strip.@hovered.fill": "82abfe",
+        "simpleToggle.strip.fill": "82abfe",
+        "match.fill": "6d5400",
+        "match.text": "d4dbea",
+        "completion.match.fill": "0000000%",
+        "completion.match.text": "bacfff",
+        "tab.text": "828895",
+        "tab.@hovered.fill": "14171f60%",
+        "tab.pane.fill": "060911",
+        "tab.pane.border": "3a3e49",
+        "tab.@hovered.border": "0000000%",
+        "tab.@hovered.text": "828895",
+        "tab.@selected.border": "2d323b",
+        "tab.@selected.text": "828895",
+        "tab.@focused.@selected.border": "5a75aa",
+        "tab.@focused.@selected.fill": "14171f",
+        "tab.@focused.@selected.text": "bdc3d2",
+        "terminal.ansiBlack.fill": "14171f",
+        "terminal.ansiBlack.text": "bdc3d2",
+        "terminal.ansiBlue.fill": "22498d",
+        "terminal.ansiBlue.text": "95b7ff",
+        "terminal.ansiBrightBlack.fill": "525763",
+        "terminal.ansiBrightBlack.text": "525763",
+        "terminal.ansiBrightBlue.fill": "22498d",
+        "terminal.ansiBrightBlue.text": "bacfff",
+        "terminal.ansiBrightCyan.fill": "00565a",
+        "terminal.ansiBrightCyan.text": "59e7ee",
+        "terminal.ansiBrightGreen.fill": "1c591f",
+        "terminal.ansiBrightGreen.text": "9be595",
+        "terminal.ansiBrightMagenta.fill": "663374",
+        "terminal.ansiBrightMagenta.text": "f1b7ff",
+        "terminal.ansiBrightRed.fill": "7b2e2e",
+        "terminal.ansiBrightRed.text": "ffbbb8",
+        "terminal.ansiBrightWhite.fill": "14171f",
+        "terminal.ansiBrightWhite.text": "14171f",
+        "terminal.ansiBrightYellow.fill": "5e4800",
+        "terminal.ansiBrightYellow.text": "f6c953",
+        "terminal.ansiCyan.fill": "00565a",
+        "terminal.ansiCyan.text": "2bcfd7",
+        "terminal.ansiGreen.fill": "1c591f",
+        "terminal.ansiGreen.text": "82cd7d",
+        "terminal.ansiMagenta.fill": "663374",
+        "terminal.ansiMagenta.text": "dd9cee",
+        "terminal.ansiRed.fill": "7b2e2e",
+        "terminal.ansiRed.text": "ff9692",
+        "terminal.ansiWhite.fill": "bdc3d2",
+        "terminal.ansiWhite.text": "bdc3d2",
+        "terminal.ansiYellow.fill": "5e4800",
+        "terminal.ansiYellow.text": "ddb238",
+        "toggle.focusRing": "5a75aa",
+        "toggle.text": "bdc3d2",
+        "toggle.@disabled.fill": "0000000%",
+        "toggle.@disabled.text": "6a707c",
+        "toggle.@focused.border": "5a75aa",
+        "toggle.@hovered.fill": "2a2f38",
+        "toggle.@pressed.fill": "272b34",
+        "toggle.@selected.fill": "82abfe",
+        "toggle.@selected.text": "14171f",
+        "toggle.@selected.focusRing": "5a75aa",
+        "toggle.@disabled.border": "0000000%",
+        "toggle.@focused.fill": "2d323b",
+        "toggle.@focused.text": "bdc3d2",
+        "toggle.@hovered.text": "bdc3d2",
+        "toggle.@pressed.text": "bdc3d2",
+        "toggle.@selected.border": "0000000%",
+        "toggle.@focused.@hovered.fill": "2a2f38",
+        "toggle.@focused.@pressed.fill": "272b34",
+        "toggle.@selected.@disabled.fill": "21252d",
+        "toggle.@selected.@disabled.text": "828895",
+        "toggle.@selected.@focused.border": "5a75aa",
+        "toggle.@selected.@focused.fill": "82abfe",
+        "toggle.@selected.@focused.text": "14171f",
+        "toggle.@selected.@hovered.fill": "7497e0",
+        "toggle.@selected.@hovered.text": "14171f",
+        "toggle.@selected.@pressed.fill": "6684c2",
+        "toggle.@selected.@pressed.text": "14171f",
+        "toggle.@disabled.@hovered.fill": "0000000%",
+        "toggle.@disabled.@hovered.text": "6a707c",
+        "toggle.@disabled.@pressed.fill": "0000000%",
+        "toggle.@disabled.@pressed.text": "6a707c",
+        "toggle.@focused.@hovered.text": "bdc3d2",
+        "toggle.@focused.@pressed.text": "bdc3d2",
+        "toggle.@selected.@disabled.border": "0000000%",
+        "toggle.@selected.@focused.@hovered.fill": "7497e0",
+        "toggle.@selected.@focused.@hovered.text": "14171f",
+        "toggle.@selected.@focused.@pressed.fill": "6684c2",
+        "toggle.@selected.@focused.@pressed.text": "14171f",
+        "toggle.@selected.@disabled.@hovered.fill": "21252d",
+        "toggle.@selected.@disabled.@hovered.text": "828895",
+        "toggle.@selected.@disabled.@pressed.fill": "21252d",
+        "toggle.@selected.@disabled.@pressed.text": "828895",
+        "tool.fill": "0d1018",
+        "tooltip.fill": "21252d",
+        "tooltip.border": "3a3e49",
+        "tooltip.text": "bdc3d2",
+        "tree.cursor.border": "5a75aa",
+        "tree.@focused.border": "5a75aa",
+        "windows.close.button.@hovered.fill": "c42b1c",
+        "windows.close.button.@hovered.text": "ffffff",
+        "windows.close.button.@pressed.fill": "c73c31",
+        "windows.close.button.@pressed.text": "edbebb"
+    },
+    "text-attributes": {
+        "editor.selection": {
+            "bgColor": "323e55",
+            "layer": 2000
+        },
+        "editor.text.scheme": {
+            "fgColor": "bdc3d2"
+        },
+        "editor.text.composable": {
+            "decoration": {
+                "color": "bdc3d2"
+            }
+        },
+        "editor.search.results": {
+            "bgColor": "3f2f00",
+            "stripeColor": "6d5400",
+            "layer": 100
+        },
+        "editor.rename.entries": {
+            "bgColor": "82cd7d",
+            "stripeColor": "82cd7d",
+            "layer": 100,
+            "showEmptyIntervals": true
+        },
+        "editor.rename.current": {
+            "stripeColor": "82abfe",
+            "layer": 100,
+            "showEmptyIntervals": true,
+            "decoration": {
+                "color": "82abfe",
+                "style": "BORDER"
+            }
+        },
+        "comment": {
+            "fgColor": "828895",
+            "layer": 5
+        },
+        "comment.parameter": {
+            "fgColor": "779ff1",
+            "layer": 5
+        },
+        "comment.parameter.value": {
+            "fgColor": "779ff1",
+            "layer": 5
+        },
+        "link": {},
+        "link.always.visible": {
+            "decoration": {}
+        },
+        "link.hovered": {
+            "fgColor": "82abfe",
+            "layer": 100,
+            "decoration": {
+                "color": "82abfe"
+            }
+        },
+        "keyword": {
+            "fgColor": "ddb238",
+            "layer": 20
+        },
+        "keyword.typeModifier": {
+            "fgColor": "ddb238",
+            "layer": 20,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "metadata": {
+            "fgColor": "95b7ff",
+            "layer": 25
+        },
+        "number": {
+            "fgColor": "95b7ff",
+            "layer": 10
+        },
+        "boolean": {
+            "fgColor": "95b7ff",
+            "layer": 10
+        },
+        "string": {
+            "fgColor": "ff9880",
+            "layer": 15
+        },
+        "string.binary": {
+            "fgColor": "ff9692",
+            "layer": 15
+        },
+        "string.escape": {
+            "fgColor": "ff9692",
+            "layer": 25,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "string.escape.alternative": {
+            "fgColor": "ff9692",
+            "layer": 25,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "string.formatItem": {
+            "fgColor": "ff9692",
+            "layer": 25
+        },
+        "string.regexp": {
+            "fgColor": "ff9692",
+            "layer": 25
+        },
+        "identifier": {
+            "fgColor": "bdc3d2",
+            "layer": 10
+        },
+        "identifier.this": {
+            "fgColor": "ddb238",
+            "layer": 20,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "identifier.underCaret": {
+            "bgColor": "3a3e49",
+            "stripeColor": "828895",
+            "layer": 1000
+        },
+        "identifier.constant": {
+            "fgColor": "95b7ff",
+            "layer": 20
+        },
+        "identifier.constant.predefined": {
+            "fgColor": "ff9692",
+            "layer": 20,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "identifier.variable.local": {
+            "fgColor": "bdc3d2",
+            "layer": 20
+        },
+        "identifier.variable.local.reassigned": {
+            "fgColor": "bdc3d2",
+            "layer": 20,
+            "decoration": {
+                "color": "6a707c"
+            }
+        },
+        "identifier.parameter": {
+            "fgColor": "95b7ff",
+            "layer": 20
+        },
+        "identifier.function.declaration": {
+            "fgColor": "82cd7d",
+            "layer": 20,
+            "fontModifier": {
+                "semiBold": true
+            }
+        },
+        "identifier.function.call": {
+            "fgColor": "82cd7d",
+            "layer": 20
+        },
+        "identifier.function.call.suspend": {
+            "fgColor": "82cd7d",
+            "layer": 20
+        },
+        "identifier.function.call.package": {
+            "fgColor": "82cd7d",
+            "layer": 20
+        },
+        "identifier.method.static": {
+            "fgColor": "82cd7d",
+            "layer": 20
+        },
+        "identifier.type": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.field": {
+            "fgColor": "bdc3d2",
+            "layer": 20
+        },
+        "identifier.field.static": {
+            "fgColor": "95b7ff",
+            "layer": 20,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "identifier.interface": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.type.class": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.type.enum": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.type.struct": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.type.valueType": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.typeParameter": {
+            "fgColor": "dd9cee",
+            "layer": 20
+        },
+        "identifier.namedArgument": {
+            "fgColor": "00b4c9",
+            "layer": 20
+        },
+        "identifier.other": {
+            "fgColor": "bdc3d2",
+            "layer": 20
+        },
+        "markup.heading": {
+            "fgColor": "ff9880",
+            "layer": 20,
+            "fontModifier": {
+                "bold": true
+            }
+        },
+        "markup.bold": {
+            "fgColor": "31cde4",
+            "layer": 20,
+            "fontModifier": {
+                "bold": true
+            }
+        },
+        "markup.italic": {
+            "fgColor": "31cde4",
+            "layer": 20,
+            "fontModifier": {
+                "italic": true
+            }
+        },
+        "markup.code.block": {
+            "fgColor": "2bcfd7",
+            "layer": 20
+        },
+        "markup.href": {
+            "fgColor": "dd9cee",
+            "layer": 20,
+            "decoration": {}
+        },
+        "punctuation": {
+            "fgColor": "bdc3d2",
+            "layer": 20
+        },
+        "punctuation.operator": {
+            "fgColor": "2bcfd7",
+            "layer": 20
+        },
+        "snippet": {
+            "bgColor": "1c591f",
+            "showEmptyIntervals": true,
+            "borderRadius": 4
+        },
+        "debug.currentFrame": {
+            "bgColor": "5e4800",
+            "layer": -68,
+            "fullLine": true
+        },
+        "diff.added": {
+            "bgColor": "1a2b23",
+            "layer": -69,
+            "fullLine": true
+        },
+        "diff.added.word": {
+            "bgColor": "1d4523",
+            "layer": -60
+        },
+        "diff.added.withBorder": {
+            "bgColor": "1a2b23",
+            "layer": -69,
+            "fullLine": true,
+            "decoration": {
+                "color": "1c591f",
+                "style": "BORDER"
+            }
+        },
+        "diff.added.empty": {
+            "bgColor": "1d4523",
+            "layer": -60,
+            "showEmptyIntervals": true
+        },
+        "diff.deleted": {
+            "bgColor": "332126",
+            "layer": -69,
+            "fullLine": true
+        },
+        "diff.deleted.word": {
+            "bgColor": "5c2a2b",
+            "layer": -60,
+            "showEmptyIntervals": true
+        },
+        "diff.deleted.withBorder": {
+            "bgColor": "332126",
+            "layer": -69,
+            "fullLine": true,
+            "decoration": {
+                "color": "7b2e2e",
+                "style": "BORDER"
+            }
+        },
+        "diff.deleted.empty": {
+            "bgColor": "5c2a2b",
+            "layer": -60,
+            "showEmptyIntervals": true
+        },
+        "diff.modified": {
+            "bgColor": "1a273f",
+            "layer": -69,
+            "fullLine": true
+        },
+        "diff.modified.word": {
+            "bgColor": "203b6b",
+            "layer": -60
+        },
+        "diff.modified.withBorder": {
+            "bgColor": "1a273f",
+            "layer": -69,
+            "fullLine": true,
+            "decoration": {
+                "color": "22498d",
+                "style": "BORDER"
+            }
+        },
+        "diff.conflict.withBorder": {
+            "bgColor": "31231f",
+            "layer": -68,
+            "fullLine": true,
+            "decoration": {
+                "color": "763700",
+                "style": "BORDER"
+            }
+        },
+        "problem.error": {
+            "layer": 70,
+            "decoration": {
+                "color": "f4726f",
+                "thickness": 2
+            }
+        },
+        "problem.error.badCharacter": {
+            "layer": 100,
+            "showEmptyIntervals": true,
+            "decoration": {
+                "color": "f4726f",
+                "thickness": 2
+            }
+        },
+        "problem.warning": {
+            "layer": 60,
+            "decoration": {
+                "color": "c69900",
+                "thickness": 2
+            }
+        },
+        "problem.warning.weak": {
+            "layer": 40,
+            "decoration": {
+                "color": "69572d",
+                "thickness": 2
+            }
+        },
+        "problem.deprecated": {
+            "layer": 30,
+            "decoration": {
+                "color": "bdc3d2",
+                "position": "THROUGH"
+            }
+        },
+        "problem.info": {
+            "layer": 50,
+            "decoration": {
+                "color": "2f559c"
+            }
+        },
+        "problem.unknown": {
+            "layer": 50
+        },
+        "problem.unused": {
+            "fgColor": "828895",
+            "layer": 60
+        },
+        "transparent": {}
+    },
+    "palette": {}
+}
